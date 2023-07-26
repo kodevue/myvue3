@@ -1,4 +1,11 @@
 <script setup>
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+let navigateTo = () => {
+  router.push('/about')
+}
 </script>
 
 <template>
@@ -34,6 +41,8 @@
         praesentium voluptatibus eveniet repellendus in possimus laboriosam quia. Cum suscipit
         magnam quidem ea numquam in possimus. Cum, quae.
       </p>
+
+      <input type="button" value="Go to About" class="btn btn-secondary mb-5" @click="navigateTo" />
     </div>
   </div>
 </template>

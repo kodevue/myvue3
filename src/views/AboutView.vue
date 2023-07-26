@@ -1,3 +1,14 @@
+<script setup>
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+let navigateTo = () => {
+  router.push('/')
+}
+</script>
+
+
 <template>
   <div class="row justify-content-center">
     <div class="col-12 col-md-6">
@@ -27,6 +38,8 @@
         quidem explicabo, porro illum adipisci veritatis earum eius in tempore, dolorem alias facere
         et?
       </p>
+
+      <input type="button" value="Go to Home" class="btn btn-secondary mb-5" @click="navigateTo" />
     </div>
   </div>
 </template>
