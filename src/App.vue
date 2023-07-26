@@ -9,7 +9,7 @@ import AppNavar from '@/views/AppNavar.vue'
 
   <main>
     <RouterView v-slot="{ Component }">
-      <Transition name="page-slide">
+      <Transition>
         <component :is="Component" />
       </Transition>
     </RouterView>
@@ -17,24 +17,14 @@ import AppNavar from '@/views/AppNavar.vue'
 </template>
 
 <style>
-.fade-enter-active,
-.fade-leave-active {
-  transition: 500ms ease all;
+/* we will explain what these classes do next! */
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.7s ease;
 }
 
-.fade-enter-from,
-.fade-leave-to {
+.v-enter-from,
+.v-leave-to {
   opacity: 0;
-}
-
-.page-slide-enter-active,
-.page-slide-leave-active {
-  transition: 800ms ease all;
-}
-
-.page-slide-enter-from,
-.page-slide-leave-to {
-  opacity: 0;
-  transform: translateY(60px);
 }
 </style>
