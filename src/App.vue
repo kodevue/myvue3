@@ -5,9 +5,7 @@ import AppNavar from '@/views/AppNavar.vue'
 </script>
 
 <template>
-  <header>
-    <AppNavar />
-  </header>
+  <AppNavar />
 
   <main>
     <RouterView />

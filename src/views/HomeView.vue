@@ -5,6 +5,13 @@
   <div class="row justify-content-center">
     <div class="col-12 col-md-6">
       <h1>Home Page</h1>
+      <p class="fs-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eaque iusto accusamus magnam
+        eius nostrum quos, dolorem eos. Non voluptatum omnis temporibus, perspiciatis eveniet hic
+        fuga voluptate tenetur expedita possimus distinctio molestias velit blanditiis quia iure
+        aliquam repellendus. Error corrupti dolor quidem autem mollitia unde similique, excepturi
+        iste quibusdam sit.
+      </p>
       <p class="fs-4">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem iste facere culpa ea hic quis
         modi sit quo, labore, placeat magnam soluta sint, fuga officia illum quod vitae sunt
