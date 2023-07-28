@@ -27,20 +27,29 @@ let saveForm = () => {
     novalidate
     ref="myform"
   >
-    <input
-      type="text"
-      placeholder="Enter username"
-      class="form-control form-control-lg mt-1"
-      required
-      minlength="3"
-    />
-    <input
-      type="email"
-      placeholder="Enter email"
-      class="form-control form-control-lg mt-1"
-      required
-      minlength="3"
-    />
+    <div>
+      <input
+        type="text"
+        placeholder="Enter username"
+        class="form-control form-control-lg mt-1"
+        required
+        minlength="3"
+      />
+      <div class="valid-feedback">Looks good!</div>
+      <div class="invalid-feedback">Please choose a username.</div>
+    </div>
+
+    <div>
+      <input
+        type="email"
+        placeholder="Enter email"
+        class="form-control form-control-lg mt-1"
+        required
+        minlength="3"
+      />
+      <div class="valid-feedback">Looks good!</div>
+      <div class="invalid-feedback">Please choose a Email.</div>
+    </div>
 
     <input type="button" value="Submit" class="btn btn-secondary w-100 mt-2" @click="saveForm" />
   </form>
