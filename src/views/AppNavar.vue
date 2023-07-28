@@ -24,6 +24,9 @@
           <li class="nav-item">
             <RouterLink class="nav-link" to="/validation-demo">Validation</RouterLink>
           </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/validation-demo-label">ValidationLabel</RouterLink>
+          </li>
         </ul>
       </div>
     </div>

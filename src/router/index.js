@@ -16,6 +16,11 @@ const routes = [
     path: '/validation-demo',
     name: 'validation-demo',
     component: () => import('@/views/MyValidationDemo.vue')
+  },
+  {
+    path: '/validation-demo-label',
+    name: 'validation-demo-label',
+    component: () => import('@/views/MyValidationDemo2.vue')
   }
 ]
 
